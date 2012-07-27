@@ -11,6 +11,9 @@ class ProfileController < ApplicationController
   end
 
   def index
+        if(!session[:username].nil?)
+            redirect_to "/sites" and return
+        end
   end
 
   def sign
