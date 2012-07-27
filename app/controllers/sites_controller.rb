@@ -53,6 +53,7 @@ class SitesController < ApplicationController
 
     respond_to do |format|
       if @site.save
+        redirect_to "/sites" and return
         format.html { redirect_to @site, notice: 'Site was successfully created.' }
         format.json { render json: @site, status: :created, location: @site }
       else
