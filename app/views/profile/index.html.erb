@@ -1,9 +1,27 @@
-<form action="/profile/sign" method="post" accept-charset="utf-8"> 
-<input type="text" name="username" value=""> 
-<input type="password" name="password" value=""> 
-<input type="submit" value="Submit"> 
-</form> 
-<br>
-<br>
-<br>
-<a href="/profile/new"><button>sign up</button></a>
+<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Log In</a></li>
+    <li><a href="#tab2" data-toggle="tab">Sign Up</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+			<form action="/profile/sign" method="post" accept-charset="utf-8"> 
+			<input type="text" name="username" value=""> 
+			<input type="password" name="password" value=""> 
+			<input type="submit" value="Submit"> 
+			</form> 
+			<br>
+			<br>
+			<br>
+			<a href="/profile/new"><button>sign up</button></a>
+    </div>
+    <div class="tab-pane" id="tab2">
+			<form action="/profile/signup" method="post" accept-charset="utf-8">
+			name : <input type="text" name="username" value=""><br>
+			password : <input type="password" id="password" name="password" value=""><br>
+			confirm password : <input type="password" id="verifypassword" name="verifypassword" onblur="verifypwd()"><br>
+			<p><input type="submit" value="Submit"></p>
+			</form>
+    </div>
+  </div>
+</div>
