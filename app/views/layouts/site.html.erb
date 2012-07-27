@@ -61,13 +61,15 @@
 
     <div id="name" class="row">
     <i class="icon-search"></i>
-    <a href="/sites/new" class="span1 btn"><span>Add Site</span></a>
+    <a class="span1 btn" onclick="add_site()"><span>Add Site</span></a>
     <a href="/profile/logout" class="span1 offset9 btn"><span>Log Out</span></a>
     </div>
     <hr>
-
+    <div id="content" class="name">
+        
         <%= yield %>
 
+    </div>
     </div> <!-- /container -->
 
     <div id="name" class="name" style="height:150px;">
@@ -94,6 +96,12 @@
     <script src="../assets/js/bootstrap-collapse.js"></script>
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
-
+    <script type="text/javascript" charset="utf-8">
+            function add_site(){
+                $.get("/sites/new", function(data) {
+                    $("#content").html(data)
+                });
+            }
+    </script>
   </body>
 </html>

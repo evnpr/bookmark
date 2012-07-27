@@ -34,6 +34,7 @@ class SitesController < ApplicationController
     @site = Site.new
     @profile_id = Profile.where(:username=>session[:username]).first.id
 
+    render :layout => "nothing" and return
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @site }
