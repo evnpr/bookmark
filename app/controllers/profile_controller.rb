@@ -11,8 +11,8 @@ class ProfileController < ApplicationController
   end
 
   def index
-        if(!session[:username]=='')
-            redirect_to "/sites"
+        if(!session[:username].nil?)
+            redirect_to "/sites" and return
         end
   end
 
@@ -27,7 +27,7 @@ class ProfileController < ApplicationController
   end
 
   def logout
-        session[:username]=''
+        session[:username]= nil
         redirect_to "/"
   end
 

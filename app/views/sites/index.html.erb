@@ -1,3 +1,4 @@
+<div id="index_site" class="row">
 <div id="name" class="row">
     
 <% @sites.each do |site| %>
@@ -13,6 +14,10 @@
     </ul>
 </div>
 <% end %>
+</div>
+</div>
 
 
+<div id="new_site" style="display:none">
+<%= render 'form' %>
 </div>

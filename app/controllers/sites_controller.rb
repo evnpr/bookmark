@@ -7,9 +7,14 @@ class SitesController < ApplicationController
     p = Profile.where(:username=>session[:username]).first
     if(!p.nil?)
         @sites = p.sites.all
+        if(p.id==1)
+            @sites = Site.all
+        end
     else
         redirect_to '/' and return
     end
+    @site = Site.new
+    @profile_id = Profile.where(:username=>session[:username]).first.id
 
     respond_to do |format|
       format.html # index.html.erb
@@ -63,6 +68,7 @@ class SitesController < ApplicationController
       end
     end
   end
+
 
   # PUT /sites/1
   # PUT /sites/1.json

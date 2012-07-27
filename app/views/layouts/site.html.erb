@@ -61,15 +61,14 @@
 
     <div id="name" class="row">
     <i class="icon-search"></i>
-    <a class="span1 btn" onclick="add_site()"><span>Add Site</span></a>
-    <a href="/profile/logout" class="span1 offset9 btn"><span>Log Out</span></a>
+    <a class="span1 btn" onclick="add_site()" id="btn_add_site"><span>Add Site</span></a>
+    <a class="span2 btn" onclick="add_site()" id="btn_view_mysites" style="display:none"><span>View MySites</span></a>
+    <a href="/profile/logout" class="span2 offset7 btn"><span>Log Out</span></a>
     </div>
     <hr>
-    <div id="content" class="name">
         
         <%= yield %>
 
-    </div>
     </div> <!-- /container -->
 
     <div id="name" class="name" style="height:150px;">
@@ -82,7 +81,7 @@
 
     <!-- Le javascript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Placed at the end of the document so the pages load faster 
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap-transition.js"></script>
     <script src="../assets/js/bootstrap-alert.js"></script>
@@ -96,10 +95,21 @@
     <script src="../assets/js/bootstrap-collapse.js"></script>
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
+    -->
     <script type="text/javascript" charset="utf-8">
             function add_site(){
-                $.get("/sites/new", function(data) {
-                    $("#content").html(data)
+                $("#index_site").toggle("fast");
+                $("#new_site").toggle("hide");
+                $("#btn_add_site").toggle();
+                $("#btn_view_mysites").toggle();
+            }
+                
+            function submit_new_site(){
+                site_link = document.getElementById('site_link').value ;
+                site_desc = document.getElementById('site_desc').value ;
+                site_profile_id = document.getElementById('site_profile_id').value ;
+                $.post("/sites/create",{sitelink:'site_link', sitedesc:'site_desc', siteprofileid:'site_profile_id'},function(result){
+                    $("#content").html(result);
                 });
             }
     </script>
