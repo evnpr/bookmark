@@ -2,9 +2,9 @@
 
 <table>
   <tr>
-    <th>Link</th>
-    <th>Desc</th>
-    <th>Profile</th>
+    <th>URL</th>
+    <th>Description</th>
+    <!-- <th>Profile ID</th> -->
     <th></th>
     <th></th>
     <th></th>
@@ -13,8 +13,8 @@
 <% @sites.each do |site| %>
   <tr>
     <td><a href="<%= site.link %>"><%= site.link %></a></td>
-    <td><%= site.desc %></td>
-    <td><%= site.profile_id %></td>
+    <td> - <%= site.desc %></td>
+    <!-- <td><%= site.profile_id %></td> -->
     <td><%= link_to 'Show', site %></td>
     <td><%= link_to 'Edit', edit_site_path(site) %></td>
     <td><%= link_to 'Destroy', site, confirm: 'Are you sure?', method: :delete %></td>
