@@ -4,6 +4,7 @@ Bookmark::Application.routes.draw do
   get "profile/logout"
   post "profile/signup"
   post "profile/sign"
+  get "profile/sign"
 
   resources :sites
 
