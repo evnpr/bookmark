@@ -11,8 +11,8 @@ class ProfileController < ApplicationController
   end
 
   def index
-        if(!session[:username].nil?)
-            redirect_to "/sites" and return
+        if(!session[:username]=='')
+            redirect_to "/sites"
         end
   end
 
