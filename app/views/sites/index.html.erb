@@ -1,6 +1,7 @@
-
-<% @sites.each do |site| %>
+<div id="name" class="row">
     
+<% @sites.each do |site| %>
+<div id="name" class="span4">
     <ul class="thumbnails">
       <li class="span3 well">
       <b><a href="<%= site.link %>"><%= site.link %></a></b>
@@ -10,7 +11,8 @@
         <button class="btn"> <%= link_to 'Destroy', site, confirm: 'Are you sure?', method: :delete %> </button>
       </li>
     </ul>
+</div>
 <% end %>
 
-<br />
 
+</div>
