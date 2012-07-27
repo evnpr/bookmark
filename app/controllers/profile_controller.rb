@@ -14,7 +14,7 @@ class ProfileController < ApplicationController
   end
 
   def sign
-    @p = Profile.find(:username => params[:username], :password => params[:password]).first
+    @p = Profile.where(:username => params[:username], :password => params[:password]).first
     if(!@p.nil?)
         session[:username] = params[:username]
         redirect_to "/sites"
