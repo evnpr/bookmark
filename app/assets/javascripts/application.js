@@ -13,19 +13,3 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-
-function updateAjax(){
-    input = document.getElementById("inputAjax").value 
-    $.post('/profile/home', {inputAjax : input}, function(data) {
-          $('#ajax').html(data);
-    });
-}
-
-
-function verifypwd(){
-        pwd = document.getElementById("password").value
-        vpwd = document.getElementById("verifypassword").value
-        if(pwd!=vpwd){
-           alert("password is not match!"); 
-        }
-}

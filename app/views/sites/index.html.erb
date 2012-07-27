@@ -12,7 +12,7 @@
 
 <% @sites.each do |site| %>
   <tr>
-    <td><%= site.link %></td>
+    <td><a href="<%= site.link %>"><%= site.link %></a></td>
     <td><%= site.desc %></td>
     <td><%= site.profile_id %></td>
     <td><%= link_to 'Show', site %></td>
