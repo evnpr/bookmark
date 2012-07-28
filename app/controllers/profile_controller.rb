@@ -31,4 +31,8 @@ class ProfileController < ApplicationController
         redirect_to "/"
   end
 
+  def cat
+        @category = Category.find(params[:id]).title
+        render :layout => 'nothing' and return
+  end
 end

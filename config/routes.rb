@@ -1,4 +1,6 @@
 Bookmark::Application.routes.draw do
+  resources :categories
+
   get "profile/index"
   get "profile/new"
   get "profile/logout"
@@ -7,6 +9,7 @@ Bookmark::Application.routes.draw do
   get "profile/sign"
 
   resources :sites
+  match 'profile/cat/:id' => 'profile#cat'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

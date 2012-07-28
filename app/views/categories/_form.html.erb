@@ -1,0 +1,30 @@
+<%= form_for(@category) do |f| %>
+  <% if @category.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@category.errors.count, "error") %> prohibited this site from being saved:</h2>
+
+      <ul>
+      <% @category.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.text_field :title, :placeholder=>'category' %>
+  </div>
+  <div class="field">
+    <textarea name="category[desc]" placeholder="description"></textarea>
+  </div>
+  <!--
+  <div class="field">
+    <%= f.label :profile_id %><br />
+    <%= f.number_field :profile_id %>
+  </div>
+  -->
+  <input type="hidden" name="category[profile_id]" value="<%=@profile_id%>">
+  <div class="actions">
+    <input type="submit" name="submit" value="Submit" class="btn-large btn-primary">
+  </div>
+<% end %>

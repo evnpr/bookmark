@@ -1,18 +1,32 @@
 <div id="index_site" class="row">
 <div id="name" class="row">
-    
+   
+<% @icat = 1 %>
 <% @sites.each do |site| %>
+<% @icat = @icat + 1 %>
 <div id="name" class="span4">
     <ul class="thumbnails">
       <li class="span3 well">
       <b><a href="<%= site.link %>"><%= site.link %></a></b>
       <p><i> <%= site.desc %></i></p>
 <!--        <button class="btn"> <%= link_to 'Show', site %> </button> -->
-        <button class="btn"> <%= link_to 'Edit', edit_site_path(site) %> </button>
+        <button onclick='window.location.replace("/sites/<%=site.id%>/edit")' class="btn"> <%= link_to 'Edit', edit_site_path(site) %> </button>
         <button class="btn"> <%= link_to 'Destroy', site, confirm: 'Are you sure?', method: :delete %> </button>
+        <br>
+        <br>
+      category : <span class="category<%= @icat %>"></span>
       </li>
     </ul>
 </div>
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+        $.get("/profile/cat/<%= site.category_id %>", function(data){
+            $(".category<%= @icat %>").html(data)
+        });
+    });
+</script>   
+
 <% end %>
 </div>
 </div>
@@ -21,3 +35,4 @@
 <div id="new_site" style="display:none">
 <%= render 'form' %>
 </div>
+

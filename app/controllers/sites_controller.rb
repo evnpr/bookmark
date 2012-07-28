@@ -15,6 +15,7 @@ class SitesController < ApplicationController
     end
     @site = Site.new
     @profile_id = Profile.where(:username=>session[:username]).first.id
+    @categories = p.categories.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -39,7 +40,6 @@ class SitesController < ApplicationController
     @site = Site.new
     @profile_id = Profile.where(:username=>session[:username]).first.id
 
-    render :layout => "nothing" and return
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @site }
@@ -50,6 +50,8 @@ class SitesController < ApplicationController
   def edit
     @profile_id = Profile.where(:username=>session[:username]).first.id
     @site = Site.find(params[:id])
+    p = Profile.where(:username=>session[:username]).first
+    @categories = p.categories.all
   end
 
   # POST /sites
@@ -97,4 +99,6 @@ class SitesController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+
 end
