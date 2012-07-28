@@ -1,16 +1,16 @@
 
 <table>
   <tr>
-    <th>Title</th>
-    <th>Desc</th>
+    <th width="10%">Category</th>
+    <th width="40%">Description</th>
     <th></th>
     <th></th>
   </tr>
 
 <% @categories.each do |category| %>
   <tr>
-    <td><%= category.title %></td>
-    <td><%= category.desc %></td>
+    <td><font color="red"><%= category.title %><font></td>
+    <td style="text-align:center;"><i><%= category.desc %><i></td>
     <td><%= link_to 'Edit', edit_category_path(category) %></td>
     <td><%= link_to 'Destroy', category, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
