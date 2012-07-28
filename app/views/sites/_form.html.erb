@@ -15,13 +15,13 @@
     <%= f.text_field :link, :placeholder=>'url' %>
   </div>
   <div class="field">
-    <textarea name="site[desc]" placeholder="description"></textarea>
+    <textarea name="site[desc]" placeholder="description"><%= @desc %></textarea>
   </div>
   <div id="name" class="field">
       <select name="site[category_id]" id="category">
           <option value="">Uncategories</option>
             <% for category in @categories %>
-              <option value="<%=category.id%>"><%=category.title%></option>
+              <option value="<%=category.id%>" <% if category.id == @site.category_id %> <%= 'selected=selected' %> <% end %>><%=category.title%></option>
             <% end %>
       </select>
   </div>

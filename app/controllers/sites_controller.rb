@@ -50,8 +50,10 @@ class SitesController < ApplicationController
   def edit
     @profile_id = Profile.where(:username=>session[:username]).first.id
     @site = Site.find(params[:id])
+    @desc = Site.find(params[:id]).desc
     p = Profile.where(:username=>session[:username]).first
     @categories = p.categories.all
+    render :layout => 'category'
   end
 
   # POST /sites
@@ -79,6 +81,7 @@ class SitesController < ApplicationController
 
     respond_to do |format|
       if @site.update_attributes(params[:site])
+        redirect_to "/sites" and return
         format.html { redirect_to @site, notice: 'Site was successfully updated.' }
         format.json { head :no_content }
       else
