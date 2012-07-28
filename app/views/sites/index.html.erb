@@ -1,4 +1,8 @@
 <div id="index_site" class="row">
+<% @categories.each do |cat| %>
+<a href="/sites/cat/<%= cat.id %>"><code><%= cat.title %></code></a>
+<% end %>
+<br><br>
 <div id="name" class="row">
    
 <% @icat = 1 %>
