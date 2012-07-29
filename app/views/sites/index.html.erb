@@ -11,7 +11,7 @@
 <div id="name" class="span4">
     <ul class="thumbnails">
       <li class="span3 well">
-      <b><a href="<%= site.link %>"><%= site.title %></a></b>
+      <b><a href="<%= site.link %>"><%= site.link %></a></b>
       <p><i> <%= site.desc %></i></p>
 <!--        <button class="btn"> <%= link_to 'Show', site %> </button> -->
         <button onclick='window.location.replace("/sites/<%=site.id%>/edit")' class="btn"> <%= link_to 'Edit', edit_site_path(site) %> </button>
