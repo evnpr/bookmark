@@ -1,5 +1,7 @@
 <div id="index_site" class="row" style="padding-left:20px">
-
+<% @categories.each do |cat| %>
+<a href="/sites/cat/<%= cat.id %>"><code><%= cat.title %></code></a>
+<% end %>
 
 <br><br>
 <div id="container" class="clearfix">
@@ -16,7 +18,7 @@
         <button class="btn"> <%= link_to 'Destroy', site, confirm: 'Are you sure?', method: :delete %> </button>
         <br>
         <br>
-      category : <a href="/sites/cat/<%=site.category_id%>">
+      category : <a href="/sites/cat/<%=site.category_id%>" style="color: red">
 
       <% if(!site.category_id.nil?) %> 
       
