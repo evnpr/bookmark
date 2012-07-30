@@ -6,9 +6,9 @@ class SitesController < ApplicationController
   def index
     p = Profile.where(:username=>session[:username]).first
     if(!p.nil?)
-        @sites = p.sites.find(:all, :order => "created_at")
+        @sites = p.sites.find(:all, :order => "created_at DESC")
         if(p.id==1)
-            @sites = Site.find(:all, :order => "created_at")
+            @sites = Site.find(:all, :order => "created_at DESC")
         end
     else
         redirect_to '/' and return
