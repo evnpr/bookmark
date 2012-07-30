@@ -8,6 +8,7 @@ Bookmark::Application.routes.draw do
   post "profile/sign"
   get "profile/sign"
   
+  match 'sites/cat/:id' => 'sites#cat'
 
   resources :sites
   match 'profile/cat/:id' => 'profile#cat'
