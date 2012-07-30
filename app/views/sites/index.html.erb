@@ -1,17 +1,20 @@
 <div id="index_site" class="row" style="padding-left:20px">
+
 <% @categories.each do |cat| %>
 <a href="/sites/cat/<%= cat.id %>"><code><%= cat.title %></code></a>
 <% end %>
+
 <br><br>
-<div id="name" class="row">
+<div id="container" class="clearfix">
+
    
 <% @icat = 1 %>
 <% @sites.each do |site| %>
 <% @icat = @icat + 1 %>
-<div id="name" class="span4">
-    <ul class="thumbnails">
-      <li class="span3 well">
-      <b><a href="<%= site.link %>"><%= site.title %></a></b>
+
+  <div class="box col1 well">
+
+		      <b><a href="<%= site.link %>"><%= site.title %></a></b>
       <p><i> <%= site.desc %></i></p>
 <!--        <button class="btn"> <%= link_to 'Show', site %> </button> -->
         <button onclick='window.location.replace("/sites/<%=site.id%>/edit")' class="btn"> <%= link_to 'Edit', edit_site_path(site) %> </button>
@@ -37,9 +40,10 @@
          <a href="https://twitter.com/share" class="twitter-share-button" data-url="<%= site.link %>" data-text="<%= site.desc %>">Tweet</a>
          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
-      </li>
-    </ul>
-</div>
+
+  </div>
+
+
 
 <script type="text/javascript" charset="utf-8">
     $(document).ready(function(){
@@ -50,8 +54,26 @@
 </script>   
 
 <% end %>
+
 </div>
-</div>
+
+
+
+</div> <!-- #container -->
+
+
+<script>
+  $(function(){
+    
+    $('#container').masonry({
+      itemSelector: '.box'
+    });
+
+  });
+</script>
+
+    
+
 
 
 <div id="new_site" style="display:none">
