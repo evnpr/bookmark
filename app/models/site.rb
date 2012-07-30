@@ -3,8 +3,9 @@ class Site < ActiveRecord::Base
     belongs_to :category
 
     def category_name
-       if(!Category.find(self.category_id).nil?) 
-            Category.find(self.category_id).title 
-       end
+        if Category.exists?(self.category_id)
+            model = Category.find(self.category_id)
+            model.title
+        end
     end
 end
