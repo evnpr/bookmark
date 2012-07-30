@@ -1,16 +1,11 @@
 <div id="index_site" class="row" style="padding-left:20px">
 
-<% @categories.each do |cat| %>
-<a href="/sites/cat/<%= cat.id %>"><code><%= cat.title %></code></a>
-<% end %>
 
 <br><br>
 <div id="container" class="clearfix">
 
    
-<% @icat = 1 %>
 <% @sites.each do |site| %>
-<% @icat = @icat + 1 %>
 
   <div class="box col1 well">
 
@@ -21,7 +16,16 @@
         <button class="btn"> <%= link_to 'Destroy', site, confirm: 'Are you sure?', method: :delete %> </button>
         <br>
         <br>
-      category : <a href="/sites/cat/<%=site.category_id%>"><span class="category<%= @icat %>"></span></a>
+      category : <a href="/sites/cat/<%=site.category_id%>">
+
+      <% if(!site.category_id.nil?) %> 
+      
+      <%= site.category_name(site.category_id) %>
+
+      <% end %>
+
+
+      </a>
       <br>
       <font size="1" color="grey"><%= site.created_at %></font>
       <br>
@@ -45,13 +49,6 @@
 
 
 
-<script type="text/javascript" charset="utf-8">
-    $(document).ready(function(){
-        $.get("/profile/cat/<%= site.category_id %>", function(data){
-            $(".category<%= @icat %>").html(data)
-        });
-    });
-</script>   
 
 <% end %>
 

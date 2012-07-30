@@ -6,7 +6,7 @@ class SitesController < ApplicationController
   def index
     p = Profile.where(:username=>session[:username]).first
     if(!p.nil?)
-        @sites = p.sites.find(:all, :order => "created_at DESC")
+        @sites = Profile.mysite(p.id)
         if(p.id==1)
             @sites = Site.find(:all, :order => "created_at DESC")
         end
@@ -103,19 +103,5 @@ class SitesController < ApplicationController
     end
   end
   
-  def cat
-    p = Profile.where(:username=>session[:username]).first
-    if(!p.nil?)
-        @sites = p.sites.where(:category_id => params[:id])
-    else
-        redirect_to '/' and return
-    end
-    @site = Site.new
-    @profile_id = Profile.where(:username=>session[:username]).first.id
-    @categories = p.categories.all
-
-    render "index"
-
-  end
 
 end
