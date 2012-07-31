@@ -44,4 +44,4 @@ gem 'jquery-rails'
 #
 
 gem 'execjs'
-gem 'therubyracer'
+# gem 'therubyracer'
