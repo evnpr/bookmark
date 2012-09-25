@@ -21,12 +21,12 @@
     <textarea name="site[desc]" placeholder="description"><%= @desc %></textarea>
   </div>
   <div id="name" class="field">
-      <select name="site[category_id]" id="category">
-          <option value="">Uncategories</option>
+      <input type="hidden" name="site[category_id]" id="category" />
+      <input type="text" name="category_id"/>
+      <br><br>
             <% for category in @categories %>
-              <option value="<%=category.id%>" <% if category.id == @site.category_id %> <%= 'selected=selected' %> <% end %>><%=category.title%></option>
+               <span class="offset1"> <code><%= category %> </code></span>
             <% end %>
-      </select>
   </div>
   <!--
   <div class="field">

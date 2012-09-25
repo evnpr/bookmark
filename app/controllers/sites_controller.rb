@@ -63,6 +63,10 @@ class SitesController < ApplicationController
 
     respond_to do |format|
       if @site.save
+        c = Category.new(:title => params[:category_id]) 
+        c.save
+        @site.category_id = c.id
+        @site.save
         redirect_to "/sites" and return
         format.html { redirect_to @site, notice: 'Site was successfully created.' }
         format.json { render json: @site, status: :created, location: @site }
