@@ -21,11 +21,11 @@
     <textarea name="site[desc]" placeholder="description"><%= @desc %></textarea>
   </div>
   <div id="name" class="field">
-      <input type="hidden" name="site[category_id]" id="category" />
-      <input type="text" name="category_id" placeholder="category"/>
+      <input type="hidden" name="site[category_id]"/>
+      <input type="text" name="category_id" placeholder="category" id="category" />
       <br><br>
             <% for category in @categories %>
-               <span class="offset1"> <code><%= category.title %> </code></span>
+              <a href onClick="inputCat('<%= category.title %>')"> <code><%= category.title %> </code></a>
             <% end %>
   </div>
   <!--
@@ -39,3 +39,9 @@
     <input type="submit" name="submit" value="Submit" class="btn-large btn-primary">
   </div>
 <% end %>
+
+<script type="text/javascript" charset="utf-8">
+    function inputCat(category){
+        document.getElementById('category').value = category;
+    }
+</script>
