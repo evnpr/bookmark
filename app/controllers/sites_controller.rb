@@ -64,6 +64,8 @@ class SitesController < ApplicationController
     respond_to do |format|
       if @site.save
         c = Category.new(:title => params[:category_id]) 
+        p = Profile.where(:username => session[:username]).first
+        c.profile_id = p.id
         c.save
         @site.category_id = c.id
         @site.save
