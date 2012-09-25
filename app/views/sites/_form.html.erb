@@ -22,10 +22,10 @@
   </div>
   <div id="name" class="field">
       <input type="hidden" name="site[category_id]" id="category" />
-      <input type="text" name="category_id"/>
+      <input type="text" name="category_id" placeholder="category"/>
       <br><br>
             <% for category in @categories %>
-               <span class="offset1"> <code><%= category %> </code></span>
+               <span class="offset1"> <code><%= category.title %> </code></span>
             <% end %>
   </div>
   <!--
