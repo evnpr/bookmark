@@ -3,8 +3,8 @@ class CategoriesController < ApplicationController
   # GET /categories
   # GET /categories.json
   def index
-    @categories = Category.all
     p = Profile.where(:username=>session[:username]).first
+    @categories = p.categories.all 
     if(!p.nil?)
         @sites = p.sites.all
         if(p.id==1)
