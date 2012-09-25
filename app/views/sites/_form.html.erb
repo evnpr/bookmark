@@ -24,9 +24,12 @@
       <input type="hidden" name="site[category_id]"/>
       <input type="text" name="category_id" placeholder="category" id="category" />
       <br><br>
+      <br><br>
             <% for category in @categories %>
-              <code style="cursor:pointer; margin-right: 10px;" onClick="inputCat('<%= category.title %>')"><%= category.title %> </code>
+              <code style="cursor:pointer; margin-right: 20px;" onClick="inputCat('<%= category.title %>')"><%= category.title %> </code>
             <% end %>
+      <br><br>
+      <br><br>
   </div>
   <!--
   <div class="field">
