@@ -36,10 +36,4 @@ class ProfileController < ApplicationController
         render :layout => 'nothing' and return
   end
 
-  def clear
-    c = Category.where(:title => '')
-    c.each do |cc|
-        cc.destroy
-    end
-  end
 end
