@@ -35,4 +35,10 @@ class ProfileController < ApplicationController
         @category = Category.find(params[:id]).title
         render :layout => 'nothing' and return
   end
+
+  def clear
+    c = Category.where(:title => '')
+    c.delete
+    c.save
+  end
 end

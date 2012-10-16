@@ -129,11 +129,5 @@ class SitesController < ApplicationController
 
   end
 
-  def clear
-    c = Category.where(:title => '')
-    c.delete
-    c.save
-  end
-
 end
 
