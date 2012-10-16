@@ -13,6 +13,8 @@ Bookmark::Application.routes.draw do
   resources :sites
   match 'profile/cat/:id' => 'profile#cat'
 
+  get "sites/clear"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
