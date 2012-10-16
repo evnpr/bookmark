@@ -38,7 +38,8 @@ class ProfileController < ApplicationController
 
   def clear
     c = Category.where(:title => '')
-    c.delete
-    c.save
+    c.each do |cc|
+        cc.destroy
+    end
   end
 end
