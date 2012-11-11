@@ -1,3 +1,3 @@
 `git add . -A`
-`git commit -m 'push auto'`
+`git commit -m '#{ARGV[0]}'`
 `git push origin master`
