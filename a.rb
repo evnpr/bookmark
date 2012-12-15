@@ -1,2 +1,3 @@
-hello world again!
+`ruby l.rb > l.txt`
+
 
