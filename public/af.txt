@@ -1,0 +1,55 @@
+string appsname; get it from input
+string username; get it from input
+string filedirectory; get it from input
+
+open file based on input string (directory)
+
+string myfile=read all characters in file
+string[] lines=myfile.split based on '\n'
+bool firstflag=false;
+bool finalflag=false;
+int indexing=0;
+int bingo_index=0;
+foreach (string line in lines)
+{
+	if(firstflag==false){
+		bool m= line.match("writable");
+		if(m==false){
+			continue;
+		}else{
+			if(line.match(appsname)){
+				firstflag=true;
+				continue;
+			}
+		}		
+	}
+	if(firstflag==true){
+		bool m= line.match("members");
+		if(m==false){
+			firstflag=false;
+			continue;
+		}else{
+			if(line.match(username)){
+				finalflag=true;
+				bingo_index=indexing;
+				continue;
+			}
+		}
+	}
+	indexing++;
+}
+
+if(finalflag==true)
+{
+	lines[bingo_index]= lines[bingo_index]+" "+username;
+}else{
+	output -> "sorry, it not found or you havent had any file yet"
+}
+
+string newfile="";
+for(int o=0;o<lines.length;o++)
+{
+	newfile=newfile+lines[o]
+}
+
+write string newfile on the file, overwriting previous one.
