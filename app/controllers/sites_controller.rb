@@ -63,7 +63,11 @@ class SitesController < ApplicationController
 
     respond_to do |format|
       if @site.save
-        c = Category.new(:title => params[:category_id]) 
+        if Category.exists?(:title => params[:category_id])
+            c = Category.where(:title => params[:category_id]).first    
+        else
+            c = Category.new(:title => params[:category_id]) 
+        end
         p = Profile.where(:username => session[:username]).first
         c.profile_id = p.id
         c.save
@@ -126,3 +130,4 @@ class SitesController < ApplicationController
   end
 
 end
+

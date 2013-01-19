@@ -1,0 +1,491 @@
+commit 702b384f50d9f2ef871facdf2b808bf1a87da875
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Fri Nov 9 15:23:29 2012 +0000
+
+    yudhoahmad just edit /bookmark/app/views/profile/index.html.erb
+
+commit 3216b505dc0569faedf075d761f9620508123ea6
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Thu Nov 8 15:05:10 2012 +0000
+
+    evnpr just edit /bookmark/README
+
+commit a66213ec3aee6eae64827bfaaf0b7485e7851621
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Thu Nov 8 12:12:08 2012 +0000
+
+    evnpr just edit /bookmark/app/views/layouts/application.html.erb
+
+commit 71aaba5e300f21452cabad6383c960ab9d2b0303
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Thu Nov 8 12:09:53 2012 +0000
+
+    evnpr just edit /bookmark/app/views/layouts/application.html.erb
+
+commit 86b6f3dd53c60a2b5cc47f3d1040f7df669cd5f3
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Wed Oct 17 00:23:53 2012 +0000
+
+    evnpr just edit /bookmark/app/views/layouts/site.html.erb
+
+commit 5c5d2580693e1582cb27462ba1e9442bfcddca9b
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Wed Oct 17 00:22:37 2012 +0000
+
+    evnpr just edit /bookmark/README
+
+commit 4998f9d37cc3793ccbcdfc319daa8e6bb2d37fd3
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Wed Oct 17 00:18:43 2012 +0000
+
+    evnpr just edit /bookmark/README
+
+commit c7d2a1cab7151609b2eeb1e9294324d0fbed97c2
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Wed Oct 17 00:03:56 2012 +0000
+
+    evnpr just edit /bookmark/app/views/layouts/application.html.erb
+
+commit 8f0031782be6821aaa6699d4fb99fe6afa6c2e3f
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Oct 17 07:59:58 2012 +0800
+
+    a
+
+commit 757e2223767a8614b097112bd39146a314f4ecc2
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Oct 17 07:55:26 2012 +0800
+
+    a
+
+commit 7984cd2e67ea92c254732458555ae7d1d1145c30
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Oct 17 07:53:05 2012 +0800
+
+    a
+
+commit 1921e4288acf5125db16326a279dda1eeaafc814
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Oct 17 07:49:13 2012 +0800
+
+    clear
+
+commit 628b28dd7cd76b6e60adfb903cae6609c61ca85a
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Mon Oct 15 15:45:33 2012 +0000
+
+    evnpr just edit /bookmark/app/controllers/sites_controller.rb
+
+commit e2f0827693640bd2a02060e8ddceafe6b967dcad
+Author: Ubuntu <ubuntu@ip-10-130-17-184.ap-southeast-1.compute.internal>
+Date:   Mon Oct 15 14:24:47 2012 +0000
+
+    evnpr just edit /bookmark/README
+
+commit ba83419b5a21e5d2974162219f45bf17cbd0678c
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 09:09:28 2012 +0800
+
+    a
+
+commit 0df729e17ef3dd0a4a6cdeaca7b84b9b9e1530fe
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 09:07:50 2012 +0800
+
+    a
+
+commit 7e23f74da3c668498bc2effa2a7a8586b6a29b19
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 01:38:11 2012 +0800
+
+    auto
+
+commit 8b083357607a55ccf2f625b9971b58d9a7967eb5
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 01:36:43 2012 +0800
+
+    auto
+
+commit 6c7781cad117c6cc2266c6a001572089454f34a8
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 01:34:08 2012 +0800
+
+    auto
+
+commit e6495e30ded8bdb76ad93843efb4f5d5b1bc421a
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 01:28:41 2012 +0800
+
+    auto
+
+commit b9a236becb0e5b8e84139de1ffe46eefc37d2ab2
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 01:23:54 2012 +0800
+
+    auto
+
+commit 300c853390ad43607b2447631f386937f5f5475b
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 01:22:17 2012 +0800
+
+    auto
+
+commit 1a3d8dac64c2ceb35f7fe0d754dd2a1069505c26
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 01:02:56 2012 +0800
+
+    auto
+
+commit 4c1ad75657cb76a6ed46575238329e17dceabfdd
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Sep 26 00:58:58 2012 +0800
+
+    edit categories
+
+commit 6033a815359cb866d4f13e96b785c67093809e7d
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Aug 11 01:05:35 2012 +0800
+
+    change evanpy to evnpr
+
+commit e9ac74aa8e922621d573eb892246048295fc2932
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Aug 1 08:45:02 2012 +0800
+
+    adding image link rel
+
+commit d685534bbe17d506a8246726d38c085957b3164f
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Aug 1 08:32:09 2012 +0800
+
+    change meta description
+
+commit c9bdaf28bdfd690dd94c51e2720bf41dd53291d5
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Wed Aug 1 07:46:24 2012 +0800
+
+    adding feature detect web url or not
+
+commit e5c43d8e0f9b708b2d4ca11ad4be4f49d8de97f9
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Tue Jul 31 23:14:52 2012 +0800
+
+    chnage
+
+commit 3d43aa465c7368fcb2afbe25842d5007cafa25c3
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Tue Jul 31 23:12:17 2012 +0800
+
+    change meta content
+
+commit b425cb434d44a8d77888d46344a234ecf99b1dd8
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 21:50:54 2012 +0800
+
+    updated
+
+commit 54255e2cbfb392e52651ce396432b8c7d2f3ad23
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 15:38:39 2012 +0800
+
+    debug fixed category
+
+commit f9b5edfe40797eb855470711b686ad5242df7687
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 13:44:18 2012 +0800
+
+    adding username as regards
+
+commit fd4b013e25cb626c52af52e11b292a4809a9982d
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 13:36:04 2012 +0800
+
+    change color link categories become red
+
+commit 6c6b1a071146c8af8d7441107e5b563de3fdab2b
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 13:32:41 2012 +0800
+
+    fixed
+
+commit e28aa9beee2846d08336e3dce6df1f1ef9214e9e
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 13:19:39 2012 +0800
+
+    bug
+
+commit 5c29f5867bdef537d5ecf0b461d8cdebea46a970
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 13:16:15 2012 +0800
+
+    bug fixed
+
+commit e295c832b251a6750d5a3fbd08e2b516e05c4b8c
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 12:23:29 2012 +0800
+
+    adding method category_name
+
+commit d93c40e340b70ec27702d3c8e49467fed112b82f
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 11:35:10 2012 +0800
+
+    order created_at desc
+
+commit def7ec7875d572e4287a2e6043687acdb2c2003c
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 11:33:43 2012 +0800
+
+    order created_at desc
+
+commit a30e3289a752d0fd8a90814db24118c9a0413ce6
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Mon Jul 30 11:17:08 2012 +0800
+
+    adding pinterest style of stack post;
+
+commit 01e558053c31022be000c92fb4b5d87b68073c83
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sun Jul 29 11:29:55 2012 +0800
+
+    little
+
+commit 6fc01531cce885b985490162dc161267ce59fbd7
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sun Jul 29 11:12:10 2012 +0800
+
+    safa
+
+commit 4ce4a0bbbdf9ccadc80a3dda09bf31f64ada2e35
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sun Jul 29 11:10:04 2012 +0800
+
+    sda
+
+commit fa953f00eed0f03f5d89be5baba72c4fe3157de5
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sun Jul 29 10:54:18 2012 +0800
+
+    add title site
+
+commit 41a2aed6137a9c1674afa7e2a872b78c84dee663
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sun Jul 29 10:44:40 2012 +0800
+
+    adding share feature
+
+commit 34740d93b7edd97d1329e61db0b7927cc80d8da7
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sun Jul 29 00:35:54 2012 +0800
+
+    add date
+
+commit 6eec8e189e3fa79bc5bbaffb412acbe19f1eb2d3
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Jul 28 23:44:48 2012 +0800
+
+    link
+
+commit 7b7a1636df38bdf366e5f75764f4e4961862abb6
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Jul 28 23:18:14 2012 +0800
+
+    edit category
+
+commit e4a5a82d95d15e84d7ba602ee034a5df2824dce4
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Jul 28 23:04:36 2012 +0800
+
+    add
+
+commit 1b2874d8889b7920f5b70f5158320cb535e51566
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Jul 28 22:18:15 2012 +0800
+
+    add category
+
+commit 633a100b64d09db2ed3107c1528b8618e5131ee8
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Jul 28 19:54:59 2012 +0800
+
+    edit edit and edit
+
+commit 57c8905a984ca6e5fa32e4d81ddd9515208e799b
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Jul 28 19:31:10 2012 +0800
+
+    adding category;
+
+commit f97047b827cda98334a824f47a45e1f15c810f02
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Sat Jul 28 07:22:52 2012 +0800
+
+    add ajax
+
+commit a0b8414d8905db34fba322d66a123be20b33168b
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 23:23:56 2012 +0800
+
+    add some ajax
+
+commit 08950a60a9e66255cf75cc222980a7db2e76bee9
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 19:19:35 2012 +0800
+
+    make this one also development
+
+commit 9a42fb6aedcdf686ef55e252d24ba21658bfd499
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 15:17:26 2012 +0800
+
+    fix bug
+
+commit ffaf2726b8a90131d884c71ebea0b5c9ede6199b
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 15:11:49 2012 +0800
+
+    fix bug
+
+commit baf126749418db0b4bed9578ac56225da7452ffe
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 15:02:28 2012 +0800
+
+    fix bug
+
+commit 9aa3f8e52252c2d43c485c9311d0966c19fe20fc
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 14:51:00 2012 +0800
+
+    edit site stylesheets
+
+commit e9b5c65b4b3c4a17fcc52eaee438f948f0e0d90b
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 14:46:49 2012 +0800
+
+    edit site stylesheets
+
+commit d2a93ac67d8a475407c0864c702b17a3af79ff5c
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 11:01:51 2012 +0800
+
+    README
+
+commit 585c3b9d180095aa9e72292ccd03f80fd81e7cfd
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:55:03 2012 +0800
+
+    README
+
+commit c3997cffb17d13a48925e958c7e978ea9debd46f
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:53:25 2012 +0800
+
+    deploy
+
+commit 99339663452da1695a2a6188531e24ed4b3c0254
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:51:49 2012 +0800
+
+    deploy
+
+commit 638c971f274d941705ff6b38524611df63ac24f5
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:39:30 2012 +0800
+
+    edit sites views
+
+commit 72fc92d147688a25a217a795f7f8857985e9e072
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:33:10 2012 +0800
+
+    change title
+
+commit 9ce6db21e11c880c89fee4047fe28461506f9c81
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:29:30 2012 +0800
+
+    change title
+
+commit e441a19e0d9c2ab66b4280da97431d3b50dd6c70
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:27:15 2012 +0800
+
+    assets
+
+commit 4cc5f192268a18bcc82098177d9bd63f8314f9a6
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 10:23:54 2012 +0800
+
+    put bootstrap
+
+commit f509f6d395b65806e3b87abc54575c9b7baa7414
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 08:29:17 2012 +0800
+
+    asffaf
+
+commit 7de4d77b65c05d807e7b20dd42f9517477dfb4ea
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 08:23:36 2012 +0800
+
+    safas
+
+commit 53e563c1bbc0c3849e29239cb3e2c71e8a82e113
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 08:05:24 2012 +0800
+
+    asf
+
+commit e0a464cfaa248bb6ef9680c4102b0d052fdbb121
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:56:59 2012 +0800
+
+    assaf
+
+commit f3012d9e10c55de6d0017a75dfa15c341be22bcb
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:51:49 2012 +0800
+
+    safas
+
+commit 37cac5ef64ed8dbb6c95ccb8a601adff27d6d6df
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:44:45 2012 +0800
+
+    remove default
+
+commit f46cbaa5ac1ba3437b930990a62509eae7225f67
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:38:27 2012 +0800
+
+    asfasf
+
+commit fef161b9149f87a1a5ff0d85006df348a0e15b8a
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:35:34 2012 +0800
+
+    asfa
+
+commit 3f21f8d1889f3d0de470020c70889f27f718d1b6
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:27:38 2012 +0800
+
+    asfsfa
+
+commit 27b9246281403dd2d1937f3eecb950686d732c93
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:21:20 2012 +0800
+
+    saf
+
+commit 5eb65fe15689a8249ace56641170c1e63e463e8b
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 07:15:15 2012 +0800
+
+    asf
+
+commit 87677f2072ce02e95f1a7076812a59b0b05a4a90
+Author: evanpy <evanpurnama5@gmail.com>
+Date:   Fri Jul 27 06:49:54 2012 +0800
+
+    first commit

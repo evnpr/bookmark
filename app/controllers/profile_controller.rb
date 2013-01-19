@@ -1,5 +1,6 @@
 class ProfileController < ApplicationController
 
+#
   def new
   end
 
@@ -35,4 +36,5 @@ class ProfileController < ApplicationController
         @category = Category.find(params[:id]).title
         render :layout => 'nothing' and return
   end
+
 end
