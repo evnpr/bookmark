@@ -1,9 +1,0 @@
-Script started on Tue 22 Jan 2013 06:30:37 AM UTC
-To git@heroku.com:onlinekartadev.git
- ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'git@heroku.com:onlinekartadev.git'
-To prevent you from losing history, non-fast-forward updates were rejected
-Merge the remote changes before pushing again.  See the 'Note about
-fast-forwards' section of 'git push --help' for details.
-
-Script done on Tue 22 Jan 2013 06:30:50 AM UTC
